@@ -4,8 +4,7 @@ class Grub {
     this.color = 'pink';
     this.food = 'jelly';
   }
-};
-
-Grub.prototype.eat = function () {
-  return 'Mmmmmmmmm ' + this.food;
+  eat () {
+      return 'Mmmmmmmmm ' + this.food;
+  }
 };
